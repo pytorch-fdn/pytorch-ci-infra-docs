@@ -2,13 +2,13 @@
 
 The PyTorch CI Infrastructure is widely scoped, and related work is still in progress. As a result, the overall documentation is spread out across various repositories and working groups. Here, we provide a summary of the available learning documentation.
 
-## PyTorch ci-infra
+## CI Infra
 
 The [PyTorch ci-infra repo](https://github.com/pytorch/ci-infra) contains the terraform configuration for the PyTorch Lambda based EC2 instance autoscaler.
 
-## TestInfra
+## Test Infra
 
-The [PyTorch TestInfra project](https://github.com/pytorch/test-infra) is collection of infrastructure components that are supporting the PyTorch CI/CD system.
+The [PyTorch test-infra project](https://github.com/pytorch/test-infra) is collection of infrastructure components that are supporting the PyTorch CI/CD system. The [test-infra wiki](https://github.com/pytorch/test-infra/wiki) serves to host all of the code used for testing infrastructure across the PyTorch organization.
 
 ## Terraform AWS Github Runner
 
@@ -40,7 +40,7 @@ To stay uptodated with the ongoing progress, refer to the working group [google 
 
 Learn more about [PyTorch HUD](https://hud.pytorch.org/hud/pytorch/pytorch/main/1?per_page=50) and [services used by the HUD](https://github.com/pytorch/test-infra/tree/main/torchci).
 
-## CI/CD security principles
+## CI/CD Security Principles
 
 Learn more about the [CI/CD security principles](https://github.com/pytorch/pytorch/blob/main/SECURITY.md#cicd-security-principles).
 
